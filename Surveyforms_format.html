@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> A Survey Form </title>
+  <style>
+    div  {
+      background-color: aliceblue;
+      color: blueviolet;
+      text-align: center;
+    }
+  </style>
+  </head>
+  <body style="font-weight: 500;font-family: 'Segoe UI';">
+    <form action="" target="_blank" method="post">
+      <div>
+        <h1 style="border:solid;border-color: rgb(235, 93, 27);border-width: 3px;font-family: 'Times New Roman';">A Fitness Survey Form</h1>
+        Enter your name: <input type="text" name="username" value="" size=50 maxlength="45">  
+        <br><br>
+        Date of birth: <input type="date" name="dob" >
+        <br><br>
+        Enter your age: <input type="number" name="age" value="" size="25" maxlength="25">
+        <br><br>
+        Do you have a fitness routine?
+        <input type="radio" name="exe" value="1">Yes
+        <input type="radio" name="exe" value="2">No
+        <br><br>
+        Tell us something about your fitness routine:(if you have any) 
+        <textarea name="Comments" cols="30" rows="5">          
+        </textarea>       
+        <br><br>
+        What kind of fitness are you intrested in?
+        <br>
+        <input type="checkbox" name="Yoga">Yoga
+        <input type="checkbox" name="Gym">Gym
+        <input type="checkbox" name="exercise">Exercise
+        <input type="checkbox" name="walking"> Walking or Jogging 
+        <br> <br>
+        Would you like to join in any fitness program? 
+        <select name="preference">
+          <option value="1">Yes</option>
+          <option value="2">No</option>
+          <option value="3">Not sure</option>
+        </select>
+        <br><br><br>
+        <h3 style="font-family: 'Lucida Sans';">Thank you for filling the form!</h3>
+        <input type=submit value="Submit form">
+
+
+      </div>  
+    </form>
+  </body>
+</html>
+
+
+<!--
+<label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+
+-->
