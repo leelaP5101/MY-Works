@@ -1,0 +1,139 @@
+/*MAIN CSS*/
+.Title{
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  font-size:500%;
+  font-weight: lighter;
+  color:rgb(2, 2, 117);      
+}
+
+.Title1{
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  font-size:500%;
+  font-weight: lighter;
+  color:rgb(20, 95, 117);    
+}
+
+.Title2{
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  font-size:100%;
+  font-weight: lighter;
+  color: rgb(2, 2, 117); 
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding-left: 6%;
+  padding-right: 6%;  
+}
+
+nav ul li{
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;  
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-weight: bold;  
+}
+
+nav ul li a:hover{
+  transition: .4s;
+}
+
+a:link{
+  text-decoration: none;
+  background-color: rgb(20, 95, 117);
+  color: rgb(200, 235, 255);
+  border: 2px solid transparent;
+  /* border-radius: 50px;
+  padding: 10px 25px; */
+}
+
+a:link, a:visited {
+  background-color:rgb(46, 82, 145);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+} 
+
+a:hover, a:active {
+  background-color:darkolivegreen;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  background-color:rgb(213, 213, 250);
+  color: black;
+  border: 2px solid rgb(34, 33, 75);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav ul li a:hover, nav ul li a:active {
+  background-color: rgb(72, 66, 146);
+  color: white;
+}
+
+.Menu{
+  background-color:rgb(111, 169, 202);
+}
+
+.bttn{  
+  border-radius: 20px;
+}
+.Home{
+  border-radius: 20px;
+}
+
+#container {
+  position:relative;
+}
+
+#img2 {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.text_on_img {
+  position: absolute;
+  top: 165px;
+  right: 160px;
+  font-family: Lucida Sans Narrow, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  font-weight:lighter;
+  color:floralwhite ;
+}
+
+.Heading{
+  background-image: linear-gradient(to bottom, lightcyan 20% ,rgb(111, 169, 202));
+  padding-top: 2%;
+}
+
+.Info{
+  font-size: larger;
+  font-family: Arial Narrow;
+  padding-top: 2%;
+  padding-bottom: 2%; 
+}
+
+.txt_on_img{
+  position: absolute;
+  top: 110%;
+  left:42%;
+  font-family: Lucida Sans Narrow, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight:lighter;
+  color:floralwhite ;
+  background-color: rgb(20, 95, 117);
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+}
